@@ -1,7 +1,13 @@
 [project]
+<<<<<<< HEAD
 name = "financial_researcher"
 version = "0.1.0"
 description = "financial_researcher using crewAI"
+=======
+name = "finance"
+version = "0.1.0"
+description = "finance using crewAI"
+>>>>>>> 8554f0f (attached webserch tool - serper)
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
@@ -9,12 +15,21 @@ dependencies = [
 ]
 
 [project.scripts]
+<<<<<<< HEAD
 financial_researcher = "financial_researcher.main:run"
 run_crew = "financial_researcher.main:run"
 train = "financial_researcher.main:train"
 replay = "financial_researcher.main:replay"
 test = "financial_researcher.main:test"
 run_with_trigger = "financial_researcher.main:run_with_trigger"
+=======
+finance = "finance.main:run"
+run_crew = "finance.main:run"
+train = "finance.main:train"
+replay = "finance.main:replay"
+test = "finance.main:test"
+run_with_trigger = "finance.main:run_with_trigger"
+>>>>>>> 8554f0f (attached webserch tool - serper)
 
 [build-system]
 requires = ["hatchling"]
